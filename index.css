@@ -4,11 +4,15 @@
     list-style-type: 0;
     text-decoration: none;
 }
+
+
 .main-container {
-    
+    background-image: url("bg2.jpg");
+
     padding: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     min-height: 100vh;
+
 }
 
 .header {
@@ -16,17 +20,29 @@
     /* padding: 15px; */
     display: flex;
     justify-content: space-between;
-    background-color: darkgrey;
+    background-color: 	rgba(211,211,211,1);
     margin-bottom: 200px;
+   
 
 }
 
-.header > h2 {
+.header > div {
     /* flex-grow: 1.5; */
     padding: 15px;
     margin-right: 350px;
     padding-top: 23px;
+    /* border: 1px solid black; */
+    display: flex;
+    width: 7%;
+    justify-content: space-between;
 }
+
+.header > div > p {
+    /* border: 1px solid black; */
+    padding-top: 5px;
+}
+
+
 
 .header > a {
     /* border: 1px solid black; */
@@ -62,7 +78,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: darkgray ;
+    background-color:  rgba(245,245,245,0.75) ;
 }
 
 .threeDiv > .icon {
@@ -88,7 +104,8 @@
     height: 40px;
     width: 40px;
     text-align: center;
-    background-color: darkgray ;
+    background-color: rgba(245,245,245,0.75) ;
+    padding: 10px;
 
 }
 
